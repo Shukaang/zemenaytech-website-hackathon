@@ -9,13 +9,13 @@
 
 ## 🚀 Project Overview
 
-ZemenayTech is a complete corporate website built during a hackathon, representing Ethiopia's leading technology solutions provider. This project demonstrates modern web development practices with a focus on user experience, accessibility, and performance.
+ZemenayTech - Complete corporate website built for hackathon: Modern design system with dark mode, smooth scroll navigation, responsive portfolio showcase, and mobile-first approach. Showcasing Ethiopian tech innovation with Next.js 15 and Tailwind CSS v4.
 
 ## ✨ Key Features
 
 ### 🎨 Design & UX
 
-- **Modern Design System** - Consistent 3-color palette (Black, White, Navy Blue)
+- **Modern Design System** - Consistent 3-color palette (Black, White, Blue)
 - **Dark/Light Mode Toggle** - Seamless theme switching with system preference detection
 - **Smooth Animations** - Framer Motion powered micro-interactions
 - **Glass Morphism UI** - Modern visual effects and depth
@@ -32,12 +32,12 @@ ZemenayTech is a complete corporate website built during a hackathon, representi
 
 ### 📱 Pages & Components
 
-- **Home Page** - Hero section with floating stars animation
+- **Home Page** - Hero section with floating stars animation, testimonilas and more
 - **About Page** - Company story with animated statistics
 - **Services Page** - Detailed service breakdown with expandable sections
 - **Pricing Page** - Tiered pricing with comparison tables
 - **Contact Page** - Contact form with embedded map
-- **Portfolio Showcase** - Project galleries with case studies
+- **Portfolio Showcase** - Project galleries (case studies not added)
 
 ## 🛠️ Tech Stack
 
@@ -48,15 +48,16 @@ ZemenayTech is a complete corporate website built during a hackathon, representi
 - **Tailwind CSS v4** - Utility-first styling with custom theme
 - **Framer Motion** - Animation library
 - **Lucide React** - Icon system
+- **FontAwesomeIcon** - Icon system 2 (in some cases)
 
 ### Development Tools
 
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
 - **Husky** - Git hooks
-- **Vercel** - Deployment platform
+- **Vercel** - Deployment platform (in future)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -68,10 +69,10 @@ ZemenayTech is a complete corporate website built during a hackathon, representi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/zemenaytech-website.git
+git clone https://github.com/Shukaang/zemenaytech-website-hackathon.git
 
 # Navigate to project directory
-cd zemenaytech-website
+cd zemenaytech-website-hackathon
 
 # Install dependencies
 npm install
