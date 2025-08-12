@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from "next/image";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
@@ -39,7 +39,7 @@ const testimonials = [
   {
     name: "Shueb Ahmed",
     role: "Founder at TechAddis",
-    image: "/my-profilePic.jpg",
+    image: "/testimonials-image/my-profile.jpg",
     stars: 4,
     message:
       "I can't recommend their services enough. The level of expertise and dedication they bring to each project is unparalleled. Our ROI has skyrocketed since partnering with them.",

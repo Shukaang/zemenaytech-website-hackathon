@@ -1,8 +1,8 @@
 import { Header } from "@/components/header";
-import { PricingHero } from "@/components/pricing-hero";
-import { PricingCards } from "@/components/pricing-cards";
-import { PricingComparison } from "@/components/pricing-comparison";
-import { PricingFAQ } from "@/components/pricing-faq";
+import { PricingHero } from "@/components/pricing/pricing-hero";
+import { PricingCards } from "@/components/pricing/pricing-cards";
+import { PricingComparison } from "@/components/pricing/pricing-comparison";
+import { PricingFAQ } from "@/components/pricing/pricing-faq";
 import { Footer } from "@/components/footer";
 import { Metadata } from "next";
 

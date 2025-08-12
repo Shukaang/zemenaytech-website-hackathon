@@ -1,7 +1,7 @@
 import { Header } from "@/components/header";
-import { ContactHero } from "@/components/contact-hero";
-import { ContactForm } from "@/components/contact-form";
-import { ContactMap } from "@/components/contact-map";
+import { ContactHero } from "@/components/contact/contact-hero";
+import { ContactForm } from "@/components/contact/contact-form";
+import { ContactMap } from "@/components/contact/contact-map";
 import { Footer } from "@/components/footer";
 import { Metadata } from "next";
 

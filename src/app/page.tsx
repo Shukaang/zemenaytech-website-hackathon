@@ -1,9 +1,9 @@
 import { Header } from "@/components/header";
-import { HeroSection } from "@/components/hero-section";
-import { WhyChooseZemenay } from "@/components/why-choose-zemenay";
-import { OurClients } from "@/components/our-clients";
+import { HeroSection } from "@/components/home/hero-section";
+import { WhyChooseZemenay } from "@/components/home/why-choose-zemenay";
+import { OurClients } from "@/components/home/our-clients";
 import { Footer } from "@/components/footer";
-import MainTestimonial from "@/components/testimonials";
+import MainTestimonial from "@/components/home/testimonials";
 
 export default function HomePage() {
   return (

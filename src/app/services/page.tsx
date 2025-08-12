@@ -1,8 +1,8 @@
 import { Header } from "@/components/header";
-import { ServicesHero } from "@/components/services-hero";
-import { ComprehensiveSolutions } from "@/components/comprehensive-solutions";
-import { ServicesDetailed } from "@/components/services-detailed";
-import { PortfolioShowcase } from "@/components/portfolio-showcase";
+import { ServicesHero } from "@/components/services/services-hero";
+import { ComprehensiveSolutions } from "@/components/services/comprehensive-solutions";
+import { ServicesDetailed } from "@/components/services/services-detailed";
+import { PortfolioShowcase } from "@/components/services/portfolio-showcase";
 import { Footer } from "@/components/footer";
 import { Metadata } from "next";
 

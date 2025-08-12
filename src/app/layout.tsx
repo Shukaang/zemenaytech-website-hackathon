@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "ZemenayTech | Ethiopia's Leading Tech Company",
   description:
     "We deliver innovative web development, mobile applications, and AI solutions that drive growth and efficiency for modern businesses world-wide.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

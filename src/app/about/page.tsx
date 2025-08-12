@@ -1,8 +1,8 @@
 import { Header } from "@/components/header";
-import { AboutHero } from "@/components/about-hero";
-import { OurStory } from "@/components/our-story";
-import { WhoWeAre } from "@/components/who-we-are";
-import { MeetOurTeam } from "@/components/meet-our-team";
+import { AboutHero } from "@/components/about/about-hero";
+import { OurStory } from "@/components/about/our-story";
+import { WhoWeAre } from "@/components/about/who-we-are";
+import { MeetOurTeam } from "@/components/about/meet-our-team";
 import { Footer } from "@/components/footer";
 import { Metadata } from "next";
 
