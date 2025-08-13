@@ -70,7 +70,7 @@ export function WhyChooseZemenay() {
       icon: HeartHandshake,
       title: "Local Partnership",
       description:
-        "Based in Addis Ababa, we're your trusted local technology partner",
+        "Based in Addis Ababa, we&aposre your trusted local technology partner",
       details:
         "Easy communication, same timezone, understanding of local regulations, and commitment to Ethiopian business growth.",
       stats: "Local Partner",
@@ -103,9 +103,9 @@ export function WhyChooseZemenay() {
             ?
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-500">
-            We're not just another tech company. We're your strategic partner in
-            digital transformation, combining global expertise with local
-            understanding to deliver exceptional results.
+            We&aposre not just another tech company. We&aposre your strategic
+            partner in digital transformation, combining global expertise with
+            local understanding to deliver exceptional results.
           </p>
         </div>
 
@@ -184,8 +184,8 @@ export function WhyChooseZemenay() {
             </h3>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 transition-colors duration-300">
               Join 200+ satisfied clients who chose ZemenayTech as their
-              technology partner. Let's discuss how we can help you achieve your
-              digital goals.
+              technology partner. Let&aposs discuss how we can help you achieve
+              your digital goals.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

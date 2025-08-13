@@ -10,9 +10,9 @@ export function PricingFAQ() {
 
   const faqs = [
     {
-      question: "What's included in the Community plan?",
+      question: "What&aposs included in the Community plan?",
       answer:
-        "The Community plan gives you access to a basic website template and community support. It’s perfect for individuals or early-stage teams looking to get online quickly with minimal cost.",
+        "The Community plan gives you access to a basic website template and community support. It&apos;s perfect for individuals or early-stage teams looking to get online quickly with minimal cost.",
     },
     {
       question: "What is the WordPress Solution plan?",
@@ -27,12 +27,12 @@ export function PricingFAQ() {
     {
       question: "How does pricing work for the WordPress and Enterprise plans?",
       answer:
-        "Pricing is custom for each client based on scope and requirements. We’ll walk you through a quick consultation to understand your needs and provide a fair quote.",
+        "Pricing is custom for each client based on scope and requirements. We&apos;ll walk you through a quick consultation to understand your needs and provide a fair quote.",
     },
     {
       question: "Can I switch plans later?",
       answer:
-        "Yes! You can start with the Community or WordPress plan and upgrade to Enterprise whenever your needs grow. We’ll ensure a smooth transition.",
+        "Yes! You can start with the Community or WordPress plan and upgrade to Enterprise whenever your needs grow. We&apos;ll ensure a smooth transition.",
     },
     {
       question: "Do I need to pay anything to try it out?",

@@ -50,8 +50,8 @@ export function ContactForm() {
                   Send us a message
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300 transition-colors duration-500">
-                  Fill out the form below and we'll get back to you within 24
-                  hours.
+                  Fill out the form below and we&aposll get back to you within
+                  24 hours.
                 </p>
               </div>
 
@@ -111,7 +111,7 @@ export function ContactForm() {
                     name="subject"
                     value={formData.subject}
                     onChange={handleInputChange}
-                    placeholder="What's this about?"
+                    placeholder="What&aposs this about?"
                     required
                     className="bg-white dark:bg-gray-800 border-gray-300 dark:border-gray-600 text-black dark:text-white placeholder:text-gray-500 dark:placeholder:text-gray-400 focus:border-[#1e3a8a] focus:ring-[#1e3a8a]/20 transition-all duration-300"
                   />
@@ -165,7 +165,7 @@ export function ContactForm() {
                           info@zemenaytech.com
                         </p>
                         <p className="text-blue-200 text-sm">
-                          We'll respond within 24 hours
+                          We&aposll respond within 24 hours
                         </p>
                       </div>
                     </div>

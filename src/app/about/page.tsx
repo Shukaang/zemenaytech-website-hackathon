@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Zemenay | Ethiopia's Premier Tech Company",
+  title: "About Zemenay | Ethiopia&aposs Premier Tech Company",
   description:
-    "Learn about Zemenay's story, mission, values and the talented team shaping digital solutions.",
+    "Learn about Zemenay&aposs story, mission, values and the talented team shaping digital solutions.",
 };
 
 export default function AboutPage() {

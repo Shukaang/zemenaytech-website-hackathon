@@ -21,7 +21,7 @@ export function WhoWeAre() {
       icon: Heart,
       title: "Ethiopian Pride",
       description:
-        "We're proudly Ethiopian, understanding local business culture while delivering international quality standards.",
+        "We&aposre proudly Ethiopian, understanding local business culture while delivering international quality standards.",
     },
     {
       icon: Shield,
@@ -45,7 +45,7 @@ export function WhoWeAre() {
       icon: Users,
       title: "Client Partnership",
       description:
-        "We don't just build software; we build lasting partnerships that grow with your business success.",
+        "We don&apost just build software; we build lasting partnerships that grow with your business success.",
     },
     {
       icon: Award,
@@ -105,7 +105,7 @@ export function WhoWeAre() {
                 Our Vision
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed transition-colors duration-300">
-                To be Ethiopia's leading technology partner, recognized for
+                To be Ethiopia&aposs leading technology partner, recognized for
                 innovation, quality, and impact. We envision a digitally
                 empowered Ethiopia where every business thrives through
                 technology.
