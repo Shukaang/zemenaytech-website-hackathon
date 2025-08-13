@@ -181,7 +181,7 @@ export function Header() {
             </button>
 
             <Link href="/contact">
-              <Button className="bg-blue-800 hover:bg-blue-900 text-white transition-all duration-300 hover:scale-105">
+              <Button className="bg-[#1e3a8a] hover:bg-blue-800 text-white transition-all duration-300 hover:scale-105">
                 Contact us
               </Button>
             </Link>

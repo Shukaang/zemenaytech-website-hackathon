@@ -209,7 +209,7 @@ export function Footer() {
                     />
                     <Button
                       size="sm"
-                      className="absolute right-1 top-1 bottom-1 bg-blue-800 hover:bg-blue-900 text-white rounded-lg px-2 sm:px-3"
+                      className="absolute right-1 top-1 bottom-1 bg-[#1e3a8a] hover:bg-blue-800 text-white rounded-lg px-2 sm:px-3"
                     >
                       <ArrowRight className="h-3 w-3 sm:h-4 sm:w-4" />
                     </Button>
