@@ -101,7 +101,7 @@ export function HeroSection() {
               Award-Winning Digital Solutions
             </div>
 
-            {/* Main Heading - EXACT Typography */}
+            {/* Main Heading */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-8 animate-slide-in-left">
               <span className="text-blue-400 dark:text-blue-500">
                 Revolutionize
@@ -112,7 +112,7 @@ export function HeroSection() {
               <span className="text-white">Experience</span>
             </h1>
 
-            {/* Subheading - EXACT Content */}
+            {/* Subheading */}
             <p className="text-xl lg:text-2xl text-gray-300 dark:text-gray-400 mb-12 leading-relaxed max-w-2xl animate-slide-in-left delay-200">
               At ZemenayTech, we craft{" "}
               <span className="text-blue-400 dark:text-blue-500 font-semibold">
@@ -122,7 +122,7 @@ export function HeroSection() {
               innovation that makes your competitors jealous.
             </p>
 
-            {/* CTA Buttons - EXACT Layout */}
+            {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 mb-16 animate-slide-in-left delay-400">
               <Link href="/contact">
                 <Button
@@ -146,7 +146,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right Content - Stats Grid (EXACT Layout from second image) */}
+          {/* Right Content - Stats Grid */}
           <div className="relative animate-slide-in-right">
             <div className="grid grid-cols-2 gap-6">
               {/* Stat Card 1 */}
@@ -196,7 +196,7 @@ export function HeroSection() {
 
             {/* Floating Badge */}
             {isLoading ? (
-              <div className="absolute -top-4 -right-6 flex justify-center items-center h-1 w-1 bg-blue-600 animate-ping mx-auto mb-10" />
+              <div className="absolute -top-4 -right-6 flex justify-center items-center h-1 w-1 bg-blue-600 mx-auto mb-10" />
             ) : (
               <div className="absolute -top-6 -right-6 bg-blue-500 dark:bg-blue-600 text-white dark:text-blue-50 px-4 py-2 rounded-full text-sm font-medium animate-bounce shadow-2xl">
                 <FontAwesomeIcon icon={faRocket} /> Ethiopian Excellence

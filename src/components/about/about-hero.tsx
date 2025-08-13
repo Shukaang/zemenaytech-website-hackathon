@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 export function AboutHero() {
   return (
     <section className="relative py-16 md:py-24 lg:py-8 bg-white dark:bg-gray-950 overflow-hidden transition-colors duration-1000">
-      {/* Background Elements - Enhanced */}
+      {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/80 to-[#1e3a8a]/5 dark:from-gray-950/80 dark:to-[#1e3a8a]/10"></div>
         <div className="absolute top-20 right-20 w-64 h-64 bg-[#1e3a8a]/5 dark:bg-blue-400/10 rounded-full filter blur-3xl animate-float"></div>
@@ -23,7 +23,7 @@ export function AboutHero() {
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             {/* Text Content */}
             <div className="lg:w-1/2 text-center lg:text-left">
-              {/* Badge - Enhanced */}
+              {/* Badge */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ export function AboutHero() {
                 </span>
               </motion.h1>
 
-              {/* Subheading - More Impactful */}
+              {/* Subheading */}
               <motion.p
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export function AboutHero() {
                 innovative solutions that drive real business impact since 2019.
               </motion.p>
 
-              {/* CTA Buttons - Enhanced */}
+              {/* CTA Buttons */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
