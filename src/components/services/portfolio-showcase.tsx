@@ -191,12 +191,14 @@ export function PortfolioShowcase() {
                     </div>
 
                     {/* Project Screenshot */}
-                    <div className="relative h-80 lg:h-96 overflow-hidden rounded-xl">
+                    <div className="relative w-full aspect-video overflow-hidden rounded-xl">
                       <Image
                         src={project.mockupImage || "/placeholder.svg"}
                         alt={`${project.title} Screenshot`}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1200px"
+                        className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700"
+                        priority={false}
                       />
 
                       {/* Overlay on Hover */}
