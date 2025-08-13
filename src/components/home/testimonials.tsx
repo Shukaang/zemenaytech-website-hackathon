@@ -15,7 +15,7 @@ const testimonials = [
   {
     name: "Binyam Masresha",
     role: "Co-founder at Hiyaw Animations",
-    image: "/Binyam_Masresha.jpg",
+    image: "/testimonials-image/Binyam_Masresha.jpg",
     stars: 5,
     message:
       "Working with this team has been an absolute game-changer for our business. And Their innovative solutions have streamlined our processes and boosted our productivity tenfold!",
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: "Dagmawi Bedilu",
     role: "CSO at Efuye Gela",
-    image: "/Dagmawi_Bedilu.jpg",
+    image: "/testimonials-image/Dagmawi_Bedilu.jpg",
     stars: 5,
     message:
       "I can&apost recommend their services enough. The level of expertise and dedication they bring to each project is unparalleled. Our ROI has skyrocketed since partnering with them.",
@@ -31,7 +31,7 @@ const testimonials = [
   {
     name: "Kirubel Samuel",
     role: "Co-founder at Chewataawaqi",
-    image: "/Kirubel_Samuel.jpg",
+    image: "/testimonials-image/Kirubel_Samuel.jpg",
     stars: 5,
     message:
       "The customer support is top-notch. They&aposre always available to answer questions and provide guidance. It&aposs refreshing to work with a company that truly cares about its clients&apos success.",

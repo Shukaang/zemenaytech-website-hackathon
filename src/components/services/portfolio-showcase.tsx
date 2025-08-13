@@ -58,7 +58,7 @@ export function PortfolioShowcase() {
         "A cutting-edge gaming service platform that connects companies with professional gaming services for events and corporate entertainment. Built with Next.js for optimal performance and user experience.",
       longDescription:
         "This comprehensive gaming platform revolutionizes how companies access professional gaming services. From corporate tournaments to entertainment events, Chewata Awaqi provides a seamless connection between businesses and gaming professionals, featuring real-time booking, event management, and performance analytics.",
-      image: "/cahero.jpg",
+      image: "/portfolio-images/cahero.jpg",
       mockupImage: "/cahero.jpg",
       technologies: [
         { name: "Next.js & React", icon: Code },
@@ -85,7 +85,7 @@ export function PortfolioShowcase() {
         "Empowering the next generation of developers through comprehensive, hands-on training programs. We offer free courses in frontend, backend, and mobile development to students passionate about technology.",
       longDescription:
         "Our flagship educational initiative providing world-class developer training completely free for Ethiopian students. The platform features interactive coding challenges, project-based learning, mentorship programs, and career placement assistance, helping bridge the tech skills gap in Ethiopia.",
-      image: "/gaming.jpg",
+      image: "/portfolio-images/gaming.jpg",
       mockupImage: "/gaming.jpg",
       technologies: [
         { name: "Frontend Development", icon: Code },
@@ -112,7 +112,7 @@ export function PortfolioShowcase() {
         "A comprehensive e-commerce platform for a premium agricultural business featuring custom product catalogs, online ordering system, and farm-to-table delivery services with integrated inventory management.",
       longDescription:
         "This sophisticated e-commerce solution transforms traditional farming business into a modern digital marketplace. Features include real-time inventory tracking, seasonal product management, delivery route optimization, and customer relationship management, connecting Ethiopian farmers directly with consumers.",
-      image: "/bif.jpg",
+      image: "/portfolio-images/bif.jpg",
       mockupImage: "/bif.jpg",
       technologies: [
         { name: "WordPress & Elementor Pro", icon: Code },

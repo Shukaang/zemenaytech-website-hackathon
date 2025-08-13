@@ -77,7 +77,7 @@ export function OurStory() {
             {/* Foreground card */}
             <div className="relative bg-white dark:bg-gray-800 p-2 rounded-2xl shadow-2xl transition-all duration-500 ease-out transform group-hover:scale-[1.02] group-hover:-translate-y-2 group-hover:rotate-[1deg] group-hover:shadow-[0_20px_40px_rgba(30,58,138,0.4)]">
               <Image
-                src="/community.jpg"
+                src="/community-image/community.jpg"
                 alt="ZemenayTech Team"
                 width={600}
                 height={400}

@@ -53,14 +53,14 @@ export function Footer() {
               <div className="space-y-6 sm:space-y-8 animate-fade-in">
                 <div className="flex items-center space-x-0.5">
                   <Image
-                    src="/Zemenay Main.png"
+                    src="/our-logos/Zemenay Main.png"
                     alt="Zemenay Logo"
                     width={24}
                     height={24}
                     className="rounded-sm dark:hidden block w-10 h-10 sm:w-8 sm:h-8 transition-colors duration-300"
                   />
                   <Image
-                    src="/Zemenay Logo White.png"
+                    src="/our-logos/Zemenay Logo White.png"
                     alt="Zemenay Logo"
                     width={24}
                     height={24}
