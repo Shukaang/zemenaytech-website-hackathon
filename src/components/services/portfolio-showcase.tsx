@@ -475,7 +475,7 @@ export function PortfolioShowcase() {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="border-2 border-gray-300 dark:border-blue-600 hover:border-[#1e3a8a] text-gray-700 dark:text-gray-300 hover:text-[#1e3a8a] dark:hover:text-blue-500 px-8 py-6 text-base font-semibold rounded-xl transition-all duration-300 hover:scale-[1.02]"
+                    className="border-2 border-gray-300 dark:border-blue-600 hover:border-[#1e3a8a] text-gray-700 dark:text-gray-300 hover:text-[#1e3a8a] dark:hover:text-gray-400 px-8 py-6 text-base font-semibold rounded-xl transition-all duration-300 hover:scale-[1.02]"
                   >
                     View Our Portfolio
                   </Button>

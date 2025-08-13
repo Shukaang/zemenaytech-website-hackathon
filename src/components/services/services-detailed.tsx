@@ -149,7 +149,7 @@ export function ServicesDetailed() {
               <Card
                 key={index}
                 id={service.id} //  ID for scroll targeting
-                className="border-gray-200 dark:border-gray-700 hover:border-[#1e3a8a] dark:hover:border-blue-400 transition-all duration-500 bg-white dark:bg-gray-800 animate-scale-in hover:scale-[1.02]"
+                className="border-gray-200 dark:border-gray-700 hover:border-[#1e3a8a] dark:hover:border-blue-600 transition-all duration-500 bg-white dark:bg-gray-800 animate-scale-in hover:scale-[1.02]"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <CardContent className="p-0">
@@ -160,7 +160,7 @@ export function ServicesDetailed() {
                   >
                     <div className="flex items-center space-x-4">
                       <div className="w-12 h-12 bg-[#1e3a8a]/10 dark:bg-blue-400/10 rounded-lg flex items-center justify-center transition-colors duration-300">
-                        <service.icon className="w-6 h-6 text-[#1e3a8a] dark:text-blue-500" />
+                        <service.icon className="w-6 h-6 text-[#1e3a8a] dark:text-blue-600" />
                       </div>
                       <div>
                         <h3 className="text-xl font-bold text-black dark:text-white transition-colors duration-300">
@@ -172,9 +172,9 @@ export function ServicesDetailed() {
                       </div>
                     </div>
                     {expandedService === index ? (
-                      <ChevronUp className="w-5 h-5 text-[#1e3a8a] dark:text-blue-400 transition-transform duration-300" />
+                      <ChevronUp className="w-5 h-5 text-[#1e3a8a] dark:text-blue-600 transition-transform duration-300" />
                     ) : (
-                      <ChevronDown className="w-5 h-5 text-[#1e3a8a] dark:text-blue-400 transition-transform duration-300" />
+                      <ChevronDown className="w-5 h-5 text-[#1e3a8a] dark:text-blue-600 transition-transform duration-300" />
                     )}
                   </button>
 
@@ -202,7 +202,7 @@ export function ServicesDetailed() {
                               <Badge
                                 key={techIndex}
                                 variant="secondary"
-                                className="bg-[#1e3a8a]/10 dark:bg-blue-400/10 text-[#1e3a8a] dark:text-blue-400 hover:bg-[#1e3a8a]/20 dark:hover:bg-blue-400/20 transition-colors duration-300"
+                                className="bg-[#1e3a8a]/10 dark:bg-blue-300/10 text-[#1e3a8a] dark:text-blue-500 hover:bg-[#1e3a8a]/20 dark:hover:bg-blue-400/20 transition-colors duration-300"
                               >
                                 {tech}
                               </Badge>
@@ -222,7 +222,7 @@ export function ServicesDetailed() {
                                   key={featureIndex}
                                   className="flex items-center text-gray-600 dark:text-gray-300 transition-colors duration-300"
                                 >
-                                  <div className="w-1.5 h-1.5 bg-[#1e3a8a] dark:bg-blue-400 rounded-full mr-3"></div>
+                                  <div className="w-1.5 h-1.5 bg-[#1e3a8a] dark:bg-blue-500 rounded-full mr-3"></div>
                                   {feature}
                                 </li>
                               )

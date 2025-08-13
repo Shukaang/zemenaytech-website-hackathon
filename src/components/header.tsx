@@ -80,9 +80,9 @@ export function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
-              className={`hover:text-blue-600 transition-colors duration-300 font-medium ${
+              className={`hover:text-[#1e3a8a] dark:hover:text-blue-600 transition-colors duration-300 font-medium ${
                 pathname === "/"
-                  ? "text-blue-600 font-bold"
+                  ? "text-[#1e3a8a] dark:text-blue-600 font-bold"
                   : "text-foreground font-medium"
               }`}
             >
@@ -90,9 +90,9 @@ export function Header() {
             </Link>
             <Link
               href="/about"
-              className={`hover:text-blue-600 transition-colors duration-300 font-medium ${
+              className={`hover:text-[#1e3a8a] dark:hover:text-blue-600 transition-colors duration-300 font-medium ${
                 pathname === "/about"
-                  ? "text-blue-600 font-bold"
+                  ? "text-[#1e3a8a] dark:text-blue-600 font-bold"
                   : "text-foreground font-medium"
               }`}
             >
@@ -102,9 +102,9 @@ export function Header() {
               <div className="flex items-center">
                 <Link
                   href="/services"
-                  className={`hover:text-blue-600 transition-colors duration-300 font-medium ${
+                  className={`hover:text-[#1e3a8a] dark:hover:text-blue-600 transition-colors duration-300 font-medium ${
                     pathname === "/services"
-                      ? "text-blue-600 font-bold"
+                      ? "text-[#1e3a8a] dark:text-blue-600 font-bold"
                       : "text-foreground font-medium"
                   }`}
                 >
@@ -156,9 +156,9 @@ export function Header() {
             </div>
             <Link
               href="/pricing"
-              className={`hover:text-blue-600 transition-colors duration-300 font-medium ${
+              className={`hover:text-[#1e3a8a] dark:hover:text-blue-600 transition-colors duration-300 font-medium ${
                 pathname === "/pricing"
-                  ? "text-blue-600 font-bold"
+                  ? "text-[#1e3a8a] dark:text-blue-600 font-bold"
                   : "text-foreground font-medium"
               }`}
             >
@@ -179,17 +179,10 @@ export function Header() {
                 <Moon className="h-5 w-5 text-foreground hover:text-blue-800 transition-colors duration-300" />
               )}
             </button>
-            <Link href="/contact">
-              <Button
-                variant="outline"
-                className="border-blue-800 text-blue-800 dark:text-white hover:bg-blue-800 dark:hover:bg-blue-900 hover:text-white transition-all duration-300 dark:bg-blue-800 bg-transparent hover:scale-105"
-              >
-                Contact us
-              </Button>
-            </Link>
+
             <Link href="/contact">
               <Button className="bg-blue-800 hover:bg-blue-900 text-white transition-all duration-300 hover:scale-105">
-                Start Project
+                Contact us
               </Button>
             </Link>
           </div>
@@ -218,14 +211,14 @@ export function Header() {
                     isMenuOpen ? "rotate-180 opacity-0" : "rotate-0 opacity-100"
                   }`}
                 >
-                  <Menu className="h-6 w-6 text-foreground group-hover:text-blue-600" />
+                  <Menu className="h-6 w-6 text-foreground group-hover:text-[#1e3a8a]" />
                 </div>
                 <div
                   className={`absolute inset-0 transition-all duration-300 ${
                     isMenuOpen ? "rotate-0 opacity-100" : "rotate-180 opacity-0"
                   }`}
                 >
-                  <X className="h-6 w-6 text-foreground group-hover:text-blue-600" />
+                  <X className="h-6 w-6 text-foreground group-hover:text-[#1e3a8a]" />
                 </div>
               </div>
             </button>
@@ -320,30 +313,12 @@ export function Header() {
                 </div>
               </Link>
 
-              <Link
-                href="/contact"
-                className="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-800/10 hover:text-blue-800 transition-all duration-300 hover:translate-x-1"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <div className="flex items-center space-x-3">
-                  <div className="w-1 h-6 bg-blue-800 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <span>Contact</span>
-                </div>
-              </Link>
-
               <div className="px-4 pt-4 space-y-3 border-t border-border/30 mt-4">
-                <Button
-                  variant="outline"
-                  className="w-full border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white transition-all duration-300 hover:scale-105 bg-transparent"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Get Quote
-                </Button>
                 <Button
                   className="w-full bg-blue-800 hover:bg-blue-900 text-white transition-all duration-300 hover:scale-105"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Start Project
+                  Contact us
                 </Button>
               </div>
             </div>

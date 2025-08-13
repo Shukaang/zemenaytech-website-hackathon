@@ -1,129 +1,99 @@
 "use client";
 
+import React from "react";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, X } from "lucide-react";
 
 export function PricingComparison() {
-  const features = [
+  const featureSections = [
     {
-      name: "Basic website template",
-      community: true,
-      wordpress: false,
-      enterprise: false,
+      title: "Website Features",
+      features: [
+        {
+          name: "Basic website template",
+          community: true,
+          wordpress: false,
+          enterprise: false,
+        },
+        {
+          name: "Professional WordPress site",
+          community: false,
+          wordpress: true,
+          enterprise: false,
+        },
+        {
+          name: "Custom design & branding",
+          community: false,
+          wordpress: true,
+          enterprise: true,
+        },
+        {
+          name: "Responsive & mobile-friendly",
+          community: false,
+          wordpress: true,
+          enterprise: true,
+        },
+        {
+          name: "SEO optimization",
+          community: false,
+          wordpress: true,
+          enterprise: true,
+        },
+        {
+          name: "Content management system",
+          community: false,
+          wordpress: true,
+          enterprise: true,
+        },
+        {
+          name: "Full-scale digital ecosystem",
+          community: false,
+          wordpress: false,
+          enterprise: true,
+        },
+        {
+          name: "Custom web applications",
+          community: false,
+          wordpress: false,
+          enterprise: true,
+        },
+        {
+          name: "Advanced integrations",
+          community: false,
+          wordpress: false,
+          enterprise: true,
+        },
+      ],
     },
     {
-      name: "Professional WordPress site",
-      community: false,
-      wordpress: true,
-      enterprise: false,
-    },
-    {
-      name: "Custom design & branding",
-      community: false,
-      wordpress: true,
-      enterprise: false,
-    },
-    {
-      name: "Responsive & mobile-friendly",
-      community: false,
-      wordpress: true,
-      enterprise: true,
-    },
-    {
-      name: "SEO optimization",
-      community: false,
-      wordpress: true,
-      enterprise: true,
-    },
-    {
-      name: "Content management system",
-      community: false,
-      wordpress: true,
-      enterprise: true,
-    },
-    {
-      name: "Full-scale digital ecosystem",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "Custom web applications",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "Advanced integrations",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "Community support",
-      community: true,
-      wordpress: false,
-      enterprise: false,
-    },
-    {
-      name: "Email support",
-      community: false,
-      wordpress: true,
-      enterprise: false,
-    },
-    {
-      name: "Priority support",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "24/7 phone & email support",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "1 month maintenance",
-      community: false,
-      wordpress: false,
-      enterprise: false,
-    },
-    {
-      name: "3 months maintenance",
-      community: false,
-      wordpress: true,
-      enterprise: false,
-    },
-    {
-      name: "6 months maintenance",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "Training session",
-      community: false,
-      wordpress: true,
-      enterprise: false,
-    },
-    {
-      name: "Comprehensive training",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "Performance reports",
-      community: false,
-      wordpress: false,
-      enterprise: true,
-    },
-    {
-      name: "Dedicated project manager",
-      community: false,
-      wordpress: false,
-      enterprise: true,
+      title: "Support & Services",
+      features: [
+        {
+          name: "Community support",
+          community: true,
+          wordpress: false,
+          enterprise: false,
+        },
+        {
+          name: "Dedicated support team",
+          community: false,
+          wordpress: false,
+          enterprise: true,
+        },
+        {
+          name: "Ongoing maintenance",
+          community: false,
+          wordpress: false,
+          enterprise: true,
+        },
+        {
+          name: "Documentation access",
+          community: true,
+          wordpress: true,
+          enterprise: true,
+        },
+      ],
     },
   ];
 
@@ -164,36 +134,50 @@ export function PricingComparison() {
                     </tr>
                   </thead>
                   <tbody>
-                    {features.map((feature, index) => (
-                      <tr
-                        key={index}
-                        className="border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-300"
-                      >
-                        <td className="p-4 text-gray-700 dark:text-gray-300 transition-colors duration-300">
-                          {feature.name}
-                        </td>
-                        <td className="p-4 text-center">
-                          {feature.community ? (
-                            <Check className="w-5 h-5 text-green-600 dark:text-green-400 mx-auto transition-colors duration-300" />
-                          ) : (
-                            <X className="w-5 h-5 text-gray-300 dark:text-gray-600 mx-auto transition-colors duration-300" />
-                          )}
-                        </td>
-                        <td className="p-4 text-center bg-[#1e3a8a]/5 dark:bg-blue-400/5 transition-colors duration-300">
-                          {feature.wordpress ? (
-                            <Check className="w-5 h-5 text-[#1e3a8a] dark:text-blue-400 mx-auto transition-colors duration-300" />
-                          ) : (
-                            <X className="w-5 h-5 text-gray-300 dark:text-gray-600 mx-auto transition-colors duration-300" />
-                          )}
-                        </td>
-                        <td className="p-4 text-center">
-                          {feature.enterprise ? (
-                            <Check className="w-5 h-5 text-green-600 dark:text-green-400 mx-auto transition-colors duration-300" />
-                          ) : (
-                            <X className="w-5 h-5 text-gray-300 dark:text-gray-600 mx-auto transition-colors duration-300" />
-                          )}
-                        </td>
-                      </tr>
+                    {featureSections.map((section, sectionIndex) => (
+                      <React.Fragment key={sectionIndex}>
+                        {/* Section Header Row */}
+                        <tr className="bg-gray-50 dark:bg-gray-700/50 border-b border-gray-200 dark:border-gray-600">
+                          <td
+                            colSpan={4}
+                            className="p-4 font-semibold text-black dark:text-white transition-colors duration-300"
+                          >
+                            {section.title}
+                          </td>
+                        </tr>
+                        {/* Feature Rows */}
+                        {section.features.map((feature, featureIndex) => (
+                          <tr
+                            key={`${sectionIndex}-${featureIndex}`}
+                            className="border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/70 transition-colors duration-300"
+                          >
+                            <td className="px-4 py-2 text-gray-700 dark:text-gray-300 transition-colors duration-300">
+                              {feature.name}
+                            </td>
+                            <td className="px-4 py-2 text-center">
+                              {feature.community ? (
+                                <Check className="w-5 h-5 text-[#1e3a8a] dark:text-blue-600 mx-auto transition-colors duration-300" />
+                              ) : (
+                                <X className="w-5 h-5 text-gray-300 dark:text-gray-600 mx-auto transition-colors duration-300" />
+                              )}
+                            </td>
+                            <td className="px-4 py-2 text-center bg-[#1e3a8a]/5 dark:bg-blue-400/5 transition-colors duration-300">
+                              {feature.wordpress ? (
+                                <Check className="w-5 h-5 text-[#1e3a8a] dark:text-blue-500 mx-auto transition-colors duration-300" />
+                              ) : (
+                                <X className="w-5 h-5 text-gray-300 dark:text-gray-600 mx-auto transition-colors duration-300" />
+                              )}
+                            </td>
+                            <td className="px-4 py-2 text-center">
+                              {feature.enterprise ? (
+                                <Check className="w-5 h-5 text-[#1e3a8a] dark:text-blue-600 mx-auto transition-colors duration-300" />
+                              ) : (
+                                <X className="w-5 h-5 text-gray-300 dark:text-gray-600 mx-auto transition-colors duration-300" />
+                              )}
+                            </td>
+                          </tr>
+                        ))}
+                      </React.Fragment>
                     ))}
                   </tbody>
                 </table>

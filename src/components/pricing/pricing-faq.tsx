@@ -12,62 +12,32 @@ export function PricingFAQ() {
     {
       question: "What's included in the Community plan?",
       answer:
-        "The Community plan includes basic website templates, community support, documentation access, basic tutorials, and email support. It's perfect for personal projects and learning.",
+        "The Community plan gives you access to a basic website template and community support. It’s perfect for individuals or early-stage teams looking to get online quickly with minimal cost.",
     },
     {
       question: "What is the WordPress Solution plan?",
       answer:
-        "Our WordPress Solution plan provides professional WordPress websites with custom design, responsive layouts, SEO optimization, content management systems, and 3 months of maintenance support.",
+        "Our WordPress Solution plan offers professionally designed WordPress websites tailored to your brand. It includes SEO optimization, responsive design, and a user-friendly CMS to manage your content with ease.",
     },
     {
       question: "Who is the Enterprise plan for?",
       answer:
-        "The Enterprise plan is designed for large organizations needing full-scale digital ecosystems, custom web applications, advanced integrations, dedicated project managers, and comprehensive support.",
+        "The Enterprise plan is built for organizations needing custom web applications, full-scale digital ecosystems, and advanced integration. It includes dedicated support, ongoing maintenance, and complete customization.",
     },
     {
       question: "How does pricing work for the WordPress and Enterprise plans?",
       answer:
-        "WordPress and Enterprise plans have custom pricing based on your specific requirements, project scope, and timeline. Contact us for a personalized quote tailored to your needs.",
+        "Pricing is custom for each client based on scope and requirements. We’ll walk you through a quick consultation to understand your needs and provide a fair quote.",
     },
     {
       question: "Can I switch plans later?",
       answer:
-        "Yes, you can upgrade your plan at any time. We'll work with you to ensure a smooth transition and apply any existing work to your new plan structure.",
+        "Yes! You can start with the Community or WordPress plan and upgrade to Enterprise whenever your needs grow. We’ll ensure a smooth transition.",
     },
     {
       question: "Do I need to pay anything to try it out?",
       answer:
-        "Our Community plan is completely free to get started. For paid plans, we offer free consultations to discuss your project and provide detailed proposals before any commitment.",
-    },
-    {
-      question: "What's included in the maintenance package?",
-      answer:
-        "Maintenance includes regular security updates, performance optimization, backup and recovery, bug fixes, uptime monitoring, and technical support based on your plan level.",
-    },
-    {
-      question: "Do you offer custom development services?",
-      answer:
-        "Yes, we specialize in custom development for unique business requirements. Our Enterprise plan includes custom web applications, integrations, and bespoke solutions.",
-    },
-    {
-      question: "What's the difference between monthly and yearly billing?",
-      answer:
-        "Currently, our plans are project-based rather than subscription-based. WordPress and Enterprise plans are quoted based on project scope with flexible payment schedules.",
-    },
-    {
-      question: "How long does it take to complete a project?",
-      answer:
-        "Project timelines vary based on complexity. WordPress sites typically take 2-4 weeks, while Enterprise solutions can take 2-6 months. We provide detailed timelines during consultation.",
-    },
-    {
-      question: "Do you provide ongoing support after project completion?",
-      answer:
-        "Yes, all paid plans include maintenance periods (3-6 months depending on plan). We also offer extended support contracts for long-term partnerships.",
-    },
-    {
-      question: "Can you work with existing websites?",
-      answer:
-        "We can redesign, optimize, migrate, or enhance existing websites. We'll assess your current site and recommend the best approach for your goals.",
+        "The Community plan is completely free to start. For WordPress or Enterprise, we offer a free consultation before any commitment.",
     },
   ];
 
@@ -103,7 +73,7 @@ export function PricingFAQ() {
                     onClick={() => toggleFAQ(index)}
                     className="w-full px-3 text-left flex items-center justify-between hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-300 group"
                   >
-                    <h3 className="text-base font-semibold text-black dark:text-white pr-4 group-hover:text-[#1e3a8a] dark:group-hover:text-blue-400 transition-colors duration-300">
+                    <h3 className="text-base font-semibold text-black dark:text-white pr-4 hover:underline hover:cursor-pointer group-hover:text-[#1e3a8a] dark:group-hover:text-blue-400 transition-colors duration-300">
                       {faq.question}
                     </h3>
                     <div className="flex-shrink-0 transform transition-transform duration-300 ease-in-out group-hover:scale-110">

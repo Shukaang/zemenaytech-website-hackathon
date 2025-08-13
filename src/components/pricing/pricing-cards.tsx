@@ -71,8 +71,8 @@ export function PricingCards() {
               key={index}
               className={`relative border-2 transition-all duration-500 hover:shadow-xl dark:hover:shadow-2xl animate-scale-in ${
                 plan.popular
-                  ? "border-[#1e3a8a] dark:border-blue-400 shadow-lg scale-105"
-                  : "border-gray-200 dark:border-gray-600 hover:border-[#1e3a8a] dark:hover:border-blue-400"
+                  ? "border-[#1e3a8a] dark:border-blue-600 shadow-lg scale-105"
+                  : "border-gray-200 dark:border-gray-600 hover:border-[#1e3a8a] dark:hover:border-blue-600"
               } bg-white dark:bg-slate-800`}
               style={{ animationDelay: `${index * 200}ms` }}
             >

@@ -67,9 +67,9 @@ export function Footer() {
                     className="rounded-sm hidden dark:block w-10 h-10 sm:w-8 sm:h-8 transition-colors duration-300"
                   />
                   <div>
-                    <span className="font-bold text-xl sm:text-2xl text-[#1e3a8a] dark:text-white">
+                    <h4 className="font-bold text-xl sm:text-2xl text-[#1e3a8a] dark:text-white">
                       ZemenayTech
-                    </span>
+                    </h4>
                   </div>
                 </div>
 
