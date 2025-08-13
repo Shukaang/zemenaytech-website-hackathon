@@ -108,14 +108,14 @@ export function Footer() {
                 </h3>
                 <ul className="space-y-3 sm:space-y-4">
                   {serviceLinks.map((service, index) => (
-                    <li key={index} className="inline-flex">
-                      <a
+                    <li key={index}>
+                      <Link
                         href={`/services#${service.id}`}
-                        className="text-gray-600 dark:text-gray-400 hover:text-[#1e3a8a] dark:hover:text-blue-600 transition-all duration-300 text-xs sm:text-sm flex items-center group"
+                        className="text-gray-600 dark:text-gray-400 hover:text-[#1e3a8a] dark:hover:text-blue-600 transition-all duration-300 text-xs sm:text-sm inline-flex items-center group"
                       >
                         <div className="w-1.5 h-1.5 bg-[#1e3a8a] dark:bg-blue-600 rounded-full mr-2 sm:mr-3 group-hover:scale-150 transition-transform"></div>
                         {service.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -153,7 +153,7 @@ export function Footer() {
                   Contact Info
                   <div className="absolute -bottom-0 left-0 w-10 sm:w-12 h-0.5 bg-[#1e3a8a] dark:bg-blue-600 rounded-full"></div>
                 </h3>
-                <div className="space-y-4">
+                <ul className="space-y-3 sm:space-y-4">
                   {[
                     {
                       icon: Mail,
@@ -171,20 +171,21 @@ export function Footer() {
                       href: "/contact#contact-map",
                     },
                   ].map((contact, index) => (
-                    <Link
-                      key={index}
-                      href={contact.href}
-                      className="inline-flex items-center space-x-3 group hover:text-[#1e3a8a] dark:hover:text-[#1e3a8a] transition-colors duration-300"
-                    >
-                      <div className="w-8 h-8 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-lg flex items-center justify-center text-[#1e3a8a] dark:text-blue-600 group-hover:scale-110 transition-transform mt-1">
-                        <contact.icon className="h-3 w-3 sm:h-4 sm:w-4" />
-                      </div>
-                      <span className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm group-hover:text-[#1e3a8a] dark:group-hover:text-blue-600">
-                        {contact.text}
-                      </span>
-                    </Link>
+                    <li key={index}>
+                      <Link
+                        href={contact.href}
+                        className="inline-flex text-gray-600 dark:text-gray-400 hover:text-[#1e3a8a] dark:hover:text-blue-600 transition-all duration-300 text-xs sm:text-sm items-center group"
+                      >
+                        <div className="w-8 h-8 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-lg flex items-center justify-center text-[#1e3a8a] dark:text-blue-600 group-hover:scale-110 transition-transform mt-1">
+                          <contact.icon className="h-3 w-3 sm:h-4 sm:w-4" />
+                        </div>
+                        <span className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm group-hover:text-[#1e3a8a] dark:group-hover:text-blue-600">
+                          {contact.text}
+                        </span>
+                      </Link>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
 
