@@ -314,12 +314,14 @@ export function Header() {
               </Link>
 
               <div className="px-4 pt-4 space-y-3 border-t border-border/30 mt-4">
-                <Button
-                  className="w-full bg-blue-800 hover:bg-blue-900 text-white transition-all duration-300 hover:scale-105"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Contact us
-                </Button>
+                <Link href="/contact">
+                  <Button
+                    className="w-full bg-blue-800 hover:bg-blue-900 text-white transition-all duration-300 hover:scale-105"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Contact us
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

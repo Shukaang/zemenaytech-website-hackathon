@@ -59,7 +59,7 @@ export function PortfolioShowcase() {
       longDescription:
         "This comprehensive gaming platform revolutionizes how companies access professional gaming services. From corporate tournaments to entertainment events, Chewata Awaqi provides a seamless connection between businesses and gaming professionals, featuring real-time booking, event management, and performance analytics.",
       image: "/portfolio-images/cahero.jpg",
-      mockupImage: "/cahero.jpg",
+      mockupImage: "/portfolio-images/cahero.jpg",
       technologies: [
         { name: "Next.js & React", icon: Code },
         { name: "API Development", icon: Database },
@@ -113,7 +113,7 @@ export function PortfolioShowcase() {
       longDescription:
         "This sophisticated e-commerce solution transforms traditional farming business into a modern digital marketplace. Features include real-time inventory tracking, seasonal product management, delivery route optimization, and customer relationship management, connecting Ethiopian farmers directly with consumers.",
       image: "/portfolio-images/bif.jpg",
-      mockupImage: "/bif.jpg",
+      mockupImage: "/portfolio-images/bif.jpg",
       technologies: [
         { name: "WordPress & Elementor Pro", icon: Code },
         { name: "Custom Design & Branding", icon: Code },
