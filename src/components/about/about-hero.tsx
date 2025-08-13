@@ -61,10 +61,9 @@ export function AboutHero() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0"
               >
-                From our humble beginnings in Addis Ababa to becoming
-                Ethiopia&aposs most trusted digital transformation partner,
-                we've been crafting innovative solutions that drive real
-                business impact since 2019.
+                From our humble beginnings in Addis Ababa to becoming Ethiopia's
+                most trusted digital transformation partner, we've been crafting
+                innovative solutions that drive real business impact since 2019.
               </motion.p>
 
               {/* CTA Buttons */}

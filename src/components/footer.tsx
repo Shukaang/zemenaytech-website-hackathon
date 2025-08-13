@@ -74,8 +74,8 @@ export function Footer() {
                 </div>
 
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-xs sm:text-sm max-w-md">
-                  Ethiopia&aposs leading technology solutions provider. We
-                  transform businesses with cutting-edge web development, mobile
+                  Ethiopia's leading technology solutions provider. We transform
+                  businesses with cutting-edge web development, mobile
                   applications, and AI-powered solutions that drive real growth.
                 </p>
 

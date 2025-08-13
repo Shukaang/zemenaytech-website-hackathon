@@ -44,7 +44,7 @@ export function PricingCards() {
     {
       name: "Enterprise",
       description: "Complete digital solutions for organizations",
-      price: "Let&aposs Talk",
+      price: "Let's Talk",
       period: "Custom quote based on requirements",
       icon: Crown,
       popular: false,
@@ -142,7 +142,7 @@ export function PricingCards() {
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-semibold text-black dark:text-white mb-4 transition-colors duration-300">
-                      What&aposs Included:
+                      What's Included:
                     </h4>
                     <ul className="space-y-3">
                       {plan.features.map((feature, featureIndex) => (

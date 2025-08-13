@@ -144,7 +144,7 @@ export function MeetOurTeam() {
                 Join Our Team
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6 transition-colors duration-300">
-                We&aposre always looking for talented Ethiopian developers,
+                We're always looking for talented Ethiopian developers,
                 designers, and innovators to join our growing team.
               </p>
               <Badge

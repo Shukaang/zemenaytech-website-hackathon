@@ -38,7 +38,7 @@ export function ContactHero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-gray-900 dark:text-white"
           >
-            Let&aposs Build the{" "}
+            Let's Build the{" "}
             <span className="relative">
               <span className="relative z-10 text-[#1e3a8a] dark:text-blue-500 bg-gradient-to-r from-blue-600 to-blue-800 dark:from-blue-400 dark:to-blue-600 bg-clip-text">
                 Future Together
@@ -55,8 +55,8 @@ export function ContactHero() {
             className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto"
           >
             Ready to transform your business with clean, scalable digital
-            solutions? Connect with our expert team and let&aposs discuss how we
-            can bring your vision to life.
+            solutions? Connect with our expert team and let's discuss how we can
+            bring your vision to life.
           </motion.p>
         </div>
       </div>

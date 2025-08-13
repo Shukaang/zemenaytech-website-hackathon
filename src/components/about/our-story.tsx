@@ -27,24 +27,24 @@ export function OurStory() {
                 <strong className="text-[#1e3a8a] dark:text-blue-500">
                   ZemenayTech
                 </strong>{" "}
-                emerged from a vision to revolutionize Ethiopia&aposs technology
+                emerged from a vision to revolutionize Ethiopia's technology
                 landscape. We recognized the need for a modern, reliable, and
                 client-focused approach to software development in our rapidly
                 growing digital economy.
               </p>
               <p>
                 What began as a small team of passionate Ethiopian developers
-                has evolved into one of the country&aposs most trusted
-                technology solutions providers. Our deep understanding of local
-                business needs, combined with international best practices, has
-                enabled us to serve clients across diverse industries.
+                has evolved into one of the country's most trusted technology
+                solutions providers. Our deep understanding of local business
+                needs, combined with international best practices, has enabled
+                us to serve clients across diverse industries.
               </p>
               <p>
                 Today, we pride ourselves on being more than just a software
                 company. We are digital transformation partners, innovation
                 catalysts, and trusted advisors who understand that every
                 technology solution represents a significant step forward in our
-                clients&apos business journey.
+                clients' business journey.
               </p>
             </div>
 

@@ -26,7 +26,7 @@ const testimonials = [
     image: "/testimonials-image/Dagmawi_Bedilu.jpg",
     stars: 5,
     message:
-      "I can&apost recommend their services enough. The level of expertise and dedication they bring to each project is unparalleled. Our ROI has skyrocketed since partnering with them.",
+      "I can't recommend their services enough. The level of expertise and dedication they bring to each project is unparalleled. Our ROI has skyrocketed since partnering with them.",
   },
   {
     name: "Kirubel Samuel",
@@ -34,7 +34,7 @@ const testimonials = [
     image: "/testimonials-image/Kirubel_Samuel.jpg",
     stars: 5,
     message:
-      "The customer support is top-notch. They&aposre always available to answer questions and provide guidance. It&aposs refreshing to work with a company that truly cares about its clients&apos success.",
+      "The customer support is top-notch. They're always available to answer questions and provide guidance. It's refreshing to work with a company that truly cares about its clients' success.",
   },
   {
     name: "Shueb Ahmed",
@@ -42,7 +42,7 @@ const testimonials = [
     image: "/testimonials-image/my-profile.jpg",
     stars: 4,
     message:
-      "I can&apost recommend their services enough. The level of expertise and dedication they bring to each project is unparalleled. Our ROI has skyrocketed since partnering with them.",
+      "I can't recommend their services enough. The level of expertise and dedication they bring to each project is unparalleled. Our ROI has skyrocketed since partnering with them.",
   },
 ];
 
@@ -62,8 +62,8 @@ export default function MainTestimonial() {
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-500">
-            Don&apost just take our word for it. Here&aposs what industry
-            professionals have to say about our services and solutions.
+            Don't just take our word for it. Here's what industry professionals
+            have to say about our services and solutions.
           </p>
         </div>
 
@@ -146,8 +146,8 @@ export default function MainTestimonial() {
 
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed transition-colors duration-500">
               Join 200+ satisfied clients who chose ZemenayTech as their
-              technology partner. Let&aposs discuss how we can help you achieve
-              your digital goals and drive unprecedented growth.
+              technology partner. Let's discuss how we can help you achieve your
+              digital goals and drive unprecedented growth.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">

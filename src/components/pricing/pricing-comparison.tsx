@@ -107,8 +107,8 @@ export function PricingComparison() {
               <span className="text-[#1e3a8a] dark:text-blue-500">Plans</span>
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 transition-colors duration-500">
-              See what&aposs included in each plan to make the best choice for
-              your business.
+              See what's included in each plan to make the best choice for your
+              business.
             </p>
           </div>
 
