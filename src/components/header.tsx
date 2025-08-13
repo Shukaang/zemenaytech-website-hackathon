@@ -56,14 +56,14 @@ export function Header() {
             <Link href="/" className="flex items-center space-x-0.5 group">
               <div className="flex items-center justify-center group-hover:scale-110 transition-transform duration-300 relative overflow-hidden">
                 <Image
-                  src="/our-logos/Zemenay Main.png"
+                  src="/public/our-logos/Zemenay Main.png"
                   alt="Zemenay Logo"
                   width={24}
                   height={24}
                   className="rounded-sm dark:hidden block w-10 h-10 sm:w-8 sm:h-8 transition-colors duration-300"
                 />
                 <Image
-                  src="/our-logos/Zemenay Logo White.png"
+                  src="/public/our-logos/Zemenay Logo White.png"
                   alt="Zemenay Logo"
                   width={24}
                   height={24}

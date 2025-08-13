@@ -21,7 +21,7 @@ export function OurClients() {
       name: "Efuye Gela",
       description:
         "A creative ecosystem-builder in Ethiopia, connecting and supporting creators—helping with idea development, funding, markets, and building systems.",
-      logo: "/client-images/client1-logo.png",
+      logo: "/public/client-images/client1-logo.png",
       projects: "25+ Projects",
       color: "text-[#1e3a8a] dark:text-blue-600",
     },
@@ -30,7 +30,7 @@ export function OurClients() {
       name: "Chewata Awaki",
       description:
         "Developed a cutting-edge gaming services platform to connect companies with professional gaming services for events and corporate entertainment.",
-      logo: "/client-images/client2-logo.png",
+      logo: "/public/client-images/client2-logo.png",
       projects: "18+ Projects",
       color: "text-[#1e3a8a] dark:text-blue-600",
     },
@@ -39,7 +39,7 @@ export function OurClients() {
       name: "The Disruptors Den",
       description:
         "An entrepreneurial community in Ethiopia offering mentorship, networking, startup programs, and investor connections.",
-      logo: "/client-images/client3-logo.png",
+      logo: "/public/client-images/client3-logo.png",
       projects: "35+ Projects",
       color: "text-[#1e3a8a] dark:text-blue-600",
     },
@@ -48,7 +48,7 @@ export function OurClients() {
       name: "BIF",
       description:
         "Created a comprehensive e-commerce platform for a premium spice farming business, featuring WordPress with Elementor Pro, product catalogs, and online ordering. ",
-      logo: "/client-images/client4-logo.png",
+      logo: "/public/client-images/client4-logo.png",
       projects: "22+ Projects",
       color: "text-[#1e3a8a] dark:text-blue-600",
     },
@@ -57,7 +57,7 @@ export function OurClients() {
       name: "Hiyaw Animation",
       description:
         "Working with this team has been an absolute game-changer for our business. Their innovative solutions have streamlined our processes and boosted our productivity tenfold!",
-      logo: "/client-images/client5-logo.png",
+      logo: "/public/client-images/client5-logo.png",
       projects: "15+ Projects",
       color: "text-[#1e3a8a] dark:text-blue-600",
     },
@@ -66,7 +66,7 @@ export function OurClients() {
       name: "Government & Public",
       description:
         "Digital governance solutions, citizen services, and administrative systems",
-      logo: "/client-images/client6-logo.png",
+      logo: "/public/client-images/client6-logo.png",
       projects: "12+ Projects",
       color: "text-[#1e3a8a] dark:text-blue-600",
     },
