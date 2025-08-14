@@ -37,15 +37,6 @@ export function MeetOurTeam() {
       github: "#",
       email: "samuel@zemenaytech.com",
     },
-    {
-      name: "Shueb Ahmed",
-      position: "UI/UX Design Lead",
-      bio: "Full-stack expert specializing in React, Node.js, and cloud architecture. Leads our technical innovation and development standards.",
-      image: "/our-teams/my-profilepic.jpg",
-      linkedin: "#",
-      github: "#",
-      email: "shuebahmed32@gmail.com",
-    },
   ];
 
   return (
